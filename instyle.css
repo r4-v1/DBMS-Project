@@ -1,0 +1,105 @@
+
+/*INSERT PAGE CSS--------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+
+
+body{
+  background-color: #FEFBEA;
+	font-family: Poppins;
+  font-weight: 900;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+.inshead{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+  color:  #FF416C;
+}
+
+.goback{
+  width: 80px;
+  height: 40px;
+  background-color: #FF4B2B;
+  color: white;
+  font-weight: 600;
+  border: 0px;
+  border-radius: 5px;
+
+}
+
+span{
+  padding-top: -5px;
+  font-weight: 400;
+}
+
+h1{
+  margin-bottom: -5px;
+  padding-bottom: 5px;
+}
+
+#inscrt{
+    margin-top: 10px;
+}
+
+input {
+	border: 2px solid black;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 97%;
+  border-radius: 5px;
+  font-family: Poppins;
+}
+
+.container{
+  position: relative;
+}
+
+#insrst{
+  position: absolute;
+  margin-left: 130px;
+  top: 86%;
+
+}
+
+.insbtns{
+  padding-top: 20px;
+}
+
+button{
+  width: 100px;
+  height: 35px;
+  border-radius: 4px;
+  background-color: #FF4B2B;
+  border: 0px;
+  font-family: Poppins;
+  font-weight: 600;
+  color: white;
+
+}
+
+.ensrst{
+  position: absolute;
+  margin-left: 130px;
+  top: 65.5%;
+
+}
+
+.mnsrst{
+  position: absolute;
+  margin-left: 130px;
+  top: 73%;
+
+}
+
+.inscrt{
+  margin-right: 20px;
+}
+
+button:hover{
+  border: 2px solid black;
+}

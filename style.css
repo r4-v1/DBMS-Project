@@ -1,0 +1,236 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+
+body{
+  background-color: #FEFBEA;
+}
+
+/*LOGIN FAIL PAGE CSS-----------------------*/
+
+.formh2{
+  font-size: 42px;
+  text-align: center;
+  color: black;
+  font-family: Poppins;
+  margin: 200px;
+}
+
+.formh4{
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+  color: black;
+  margin-top: -200px;
+  font-family: Poppins;
+}
+
+.formbtn{
+  position: absolute;
+  top: 52%;
+  left: 45%;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: #FF4B2B;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+/* HOME DESIGN CSS---------------------------*/
+
+.homeheading{
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: Poppins;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logoutbtn{
+  height: 50px;
+  width: 150px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #FF4B2B;
+  border-width: 0;
+  border-radius: 4px;
+  color: white;
+  transition: 0.2 s;
+}
+
+
+
+#logoutbtn:hover{
+  border-width: 2px;
+  letter-spacing: 2px;
+  transition-timing-function: ease;
+}
+
+a.logoutbtn{
+  text-decoration: none;
+}
+h4.welcome{
+  font-size: 32px;
+  color:  #FF416C;
+  margin-bottom: -10px;
+}
+h3{
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: -60px;
+}
+.cardscontainer{
+   max-width: 1600px;
+   margin: 0 auto;
+   text-align: left;
+   padding: 30px;
+}
+
+.cards{
+  display: flex;
+  align-content: center;
+}
+
+.card{
+  background-color: #FFFFFA;
+  display: inline-block;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 240px;
+  width: 300px;
+  font-weight: 400;
+}
+
+.titles{
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color:  #FF416C;
+  padding-bottom: 20px;
+  margin-top: 4px;
+
+}
+
+h5{
+  text-align: center;
+  margin-top: -30px;
+  font-family: Poppins;
+  font-weight: 600;
+}
+
+#hbutton{
+  margin-top: 10px;
+  margin-left: 22%;
+  padding-left: 10px;
+  height: 30px;
+  width: 120px;
+  background-color: #FF4B2B;
+  border-width: 0;
+  border-radius: 4px;
+  color: white;
+}
+
+.ebuttons{
+  display: inline-flex;
+  margin-left: -20px;
+  margin-right: 5px;
+}
+
+.e1btn{
+ margin-right: 20px;
+}
+
+.e2btn{
+  margin-right: 20px;
+}
+
+#hbutton:hover{
+  border-width: 2px;
+}
+
+/*VIEW PAGES CSS----------------------------------------------*/
+.vheader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-bottom: 30px;
+}
+
+.vbutton{
+  background-color: #FF4B2B;
+  border-width: 0px;
+  height: 40px;
+  width: 120px;
+  margin-top: 30px;
+  margin-right: 5px;
+  color: white;
+  font-family: Poppins;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.vheading{
+  font-family: Poppins;
+  font-weight: 900;
+  font-size: 32px;
+  color: #FF416C;
+  margin-top: 25px;
+}
+.contenttable{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: Poppins;
+    width: 95%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.contenttable thead tr{
+  background-color: #FF416C;
+  color: #ffffff;
+  text-align: left;
+  font-weight: 400;
+}
+
+.contenttable th,
+.contenttable td {
+    padding: 12px 15px;
+    text-align: center;
+}
+.contenttable tbody{
+  background-color: #FFFFFA;
+
+}
+.contenttable tbody tr {
+    border-bottom: 1px solid #FF4B2B;
+
+}
+.contenttable tbody tr:last-of-type {
+    border-bottom: 2px solid #FF4B2B;
+}
+
+.contenttable tbody tr:hover{
+  background-color: #FFEEEE;
+  font-weight: 600;
+}
+
+.vbutton:hover{
+  border-width: 2px;
+}
+
+a{
+  text-decoration: none;
+  color: #FF4B2B;
+  font-weight: 600;
+}
